@@ -1,0 +1,22 @@
+{
+  "dataset": "CelebA (aligned, 148px centre crop -> 64x64), official splits",
+  "n_train": 162770,
+  "epochs_trained": 30,
+  "train_minutes": 56.2,
+  "test": {
+    "nll": -16436.911807434124,
+    "kl": 418.79818451933676,
+    "neg_elbo": -16018.113622914787,
+    "mse": 0.004039267824331776,
+    "psnr": 23.936973499067157
+  },
+  "active_units": 128,
+  "z_dim": 128,
+  "moment_matched_kl": 15.40715297347957,
+  "fid": {
+    "reconstructions (bound)": 53.295310974121094,
+    "N(0, I)": 92.14576721191406,
+    "Gaussian N(m, S)": 67.19014739990234,
+    "GMM (K=10)": 60.974605560302734
+  }
+}
